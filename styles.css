@@ -3,15 +3,64 @@
   padding:0px;
 }
 
-#octocat {
+body{
+  background-color: rgba(136, 129, 129, 0.76);
+}
+
+#door {
+  background-image: url("images/door.jpg");
+  background-size: 900px 600px;
+  background-repeat:no-repeat;
+  background-position:center center;
+  width: 900;
+  height: 600px;
+  position: relative;
+  margin: auto;
+}
+
+#hengpi {
   display: block;
-  width:384px;
-  margin: 50px auto;
+  background-image: url("images/hengpi.png");
+  background-repeat:no-repeat;
+  background-position:center center;
+  background-size: 350px 200px;
+  width:350px;
+  height: 200px;
+  text-align: center;
+  line-height: 216px;
+  font-family:fantasy;
+  font-size:40px;
+}
+
+#leftlian {
+  display: block;
+  background-color: rgb(141, 5, 5);
+  width: 80px;
+  height:380px;
+  position: absolute;
+  left:50%;
+  transform: -410px;
+  text-align: center;
+  font-family:fantasy;
+  font-size:40px;
+}
+
+#rightlian {
+  display: block;
+  background-color: rgb(141, 5, 5);
+  width: 80px;
+  height:380px;
+  position: absolute;
+  right: 50%;
+  transform: 410px;
+  text-align:center;
+  font-family:fantasy;
+  font-size:40px;
 }
 
 p {
   display: block;
   width: 400px;
-  margin: 50px auto;
+  margin: auto;
   font: 30px Monaco,"Courier New","DejaVu Sans Mono","Bitstream Vera Sans Mono",monospace;
 }
